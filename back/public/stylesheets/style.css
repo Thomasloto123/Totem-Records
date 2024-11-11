@@ -1,0 +1,45 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: black;
+  padding: 16px 0;
+  text-align: center;
+}
+
+header h1 {
+  color: white;
+  font-size: 40px;
+  font-weight: 100;
+  font-style: italic;
+  display: inline-block;
+  position: relative;
+  bottom: 35px;
+  margin-left: 10px;
+}
+footer {
+  background-color: #ccc;
+  clear: both;
+  color: #333;
+  text-align: center;
+  padding: 5px 0;
+  margin-top: 20px;
+}
+body {
+  font-family: 'open sans', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.holder {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+h2 {
+  color: rgb(186, 0, 0);
+  font-weight: 400;
+  font-family: open 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
