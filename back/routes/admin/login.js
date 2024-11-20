@@ -21,7 +21,7 @@ router.post('/', async (req, res, next) => {
       req.session.id_usuario = data.id;
       req.session.nombre = data.usuario;
 
-      res.redirect('/admin/Novedades');
+      res.redirect('/admin/novedades');
     } else {
       res.render('admin/login', {
         layout: 'admin/layout',
